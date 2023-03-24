@@ -1,0 +1,434 @@
+/* les margins de p et h */
+h5{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 11px;
+}
+/* acceuil background black */
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 100%;
+}
+header nav .acceuil{
+	background-color: black;
+	color: gray;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+.the_links{
+	display: flex;
+	gap: 20px;
+}
+header nav .acceuil a{
+	font-family: sans-serif;
+	font-size: 11px;
+	color: gray;
+}
+header nav .acceuil select{
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: gray;
+	border: none;
+	outline: none;
+}
+header nav .acceuil a:hover{
+	color: #fff;
+}
+header nav .acceuil select:hover{
+	color: #fff;
+}
+.acceuil h5{
+	margin-left: 185px;
+}
+/* acceuil_1 background white */
+header nav .acceuil_1{
+	background-color: #fff;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+.acceuil_1 .img{
+	background-color: orangered;
+	width: 150px;
+	height: 70px;
+}
+.acceuil_1 img{
+	width: 100px;
+	height: 50px;
+	transform: translate(22px, 10px);
+} 
+.links{
+	display: flex;
+	position: relative;
+	right: 120px;
+	
+}
+.links a:hover{
+	color: orangered;
+	transition: 0.2s;
+	
+}
+table{
+	border-collapse: collapse;
+}
+table th{
+	border: 1px solid gainsboro;
+	border-top: none;
+	border-bottom: none;
+	width: 80px;
+	height: 68px;
+}
+header nav .acceuil_1 a{
+	color: black;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+/* la premiere section puma */
+#sec_1{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/puma_1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+}
+.container_sec .logo img{
+	mix-blend-mode: lighten;
+	width: 100px;
+	height: 100px;
+}
+.logo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+.container_sec .logo progress{
+	transform: translate(-6px);
+}
+progress{
+	width: 6%;
+	height: 3px;
+	appearance: none;
+}
+progress::-webkit-progress-value{
+	border-radius: 50px;
+	background-color: orangered;
+}
+progress::-webkit-progress-bar{
+	border-radius: 20px;
+}
+.container_sec h1{
+	font-size: 50px;
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+}
+.container_sec h1 span{
+	font-size: 15px;
+	font-weight: lighter;
+}
+.container_sec .more{
+	text-align: center;
+}
+.container_sec .more a{
+	text-align: center;
+	border: 1px solid white;
+	color: white;
+	padding: 14px;
+	width: 120px;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: sans-serif;	
+}
+.container_sec .more .fa{
+	margin-left: 10px;
+}
+.container_sec .more a:hover{
+	background-color: rgba(240, 76, 16, 0.9);
+	transition: 0.3s;
+}
+.slider{
+	display: flex;
+	justify-content: center;
+}
+.slider input{
+	appearance: none;
+}
+.radio{
+	cursor: pointer;
+	appearance: none;
+	width: 2px;
+	height: 2px;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid white;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.radio:before{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	width: 5px;
+	background: white;
+	border-radius: 50px;
+}
+.radio:checked:before{
+	border: 2px solid white;
+	opacity: 1;
+	transition: 0.3s;
+}
+/* je suis la section 3 */
+#sec_2{
+	width: 100%;
+	height: 400px;
+	background-color: gainsboro;
+}
+.container_sec2{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 50px;
+}
+.container_sec2 .photo_1{
+	background-color: rgb(241, 101, 50);
+	width: 40%;
+	height: 300px;
+}
+.container_sec2 .photo_2{
+	background-color: gray;
+	width: 40%;
+	height: 300px;
+}
+fieldset{
+	width: 70%;
+	height: 200px;
+	border: 3px solid white;
+	position: relative;
+	left: 55px;
+	top: 10px;
+
+}
+.nike1{
+	background-image: url(images/montre-1-removebg-preview.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 310px bottom;
+	width: 100%;
+	height: 100%;
+}
+.nike{
+	background-image: url(images/Nike-removebg-preview.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 80px bottom;
+	width: 100%;
+	height: 100%;
+}
+
+legend{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: sans-serif;
+	color: #fff;
+}
+.linkyii a{
+	color: white;
+	font-size: 10px;
+	word-spacing: 5px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	position: relative;
+	left: 55px;
+	top: 35px;
+}
+#sec_2 h1{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	margin-top: 75px;
+}
+/* responsive */
+@media screen and (max-width: 768px){
+	.acceuil h5{
+		font-size: 10px;
+		margin-left: 100px;
+	}
+	.acceuil .the_links{
+		display: grid;
+		grid-template-columns: auto auto;
+		row-gap: 5px;
+	}
+	.acceuil_1 .links a{
+		font-size: 15px;
+	}
+	table{
+		position: relative;
+		left: 15px;
+	}
+	.acceuil_1 .img{
+		position: relative;
+		bottom: 60px;
+		width: 100px;
+		height: 50px;
+	}
+	.acceuil_1 img{
+		width: 70px;
+		height: 30px;
+		transform: translate(12px, 10px);
+	}
+	fieldset{
+		width: 70%;
+		height: 200px;
+		border: 3px solid white;
+		position: relative;
+		left: 30px;
+		top: 15px;
+	}
+	.nike1{
+		background-position: 140px bottom;
+	}
+	.nike{
+		background-position: 40px;
+	}
+	legend{
+		font-size: 20px;
+		font-weight: bolder;
+		font-family: sans-serif;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 528px){
+	header nav .acceuil{
+		height: 100px;
+	}
+	#sec_1{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/puma_1.jpg);
+		background-size: cover;
+		background-position: 50%;
+		width: 100%;
+		height: 900px;
+	}
+	.acceuil{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.acceuil h5{
+		font-size: 10px;
+		margin: 0;
+	}
+	.acceuil .the_links{
+		display: grid;
+		grid-template-columns: auto auto;
+		row-gap: 7px;
+		justify-content: last baseline;
+		align-items: flex-end;
+	}
+	.acceuil_1 .links a{
+		font-size: 10px;
+		position: relative;
+		left: 0px;
+	}
+	.links{
+		text-align: center;
+		position: relative;
+		right: 20px;
+		bottom: 20px;
+	}
+	.fa{
+		position: relative;
+		left: 50px;
+	}
+	.acceuil_1 .img{
+		width: 100%;
+		height: 40px;
+		position: relative;
+		top: 0px;
+	}
+	.acceuil_1 .img img{
+		width: 50%;
+		height: 40px;
+		transform: translate(80px, 0px);
+	}
+	header nav .acceuil_1{
+		width: 100%;
+		background-color: #fff;
+		height: 100px;
+		display: grid;
+		justify-content: center;
+	}
+	progress{
+		width: 20%;
+	}
+
+	.links table th{
+		border: none;
+	}
+	.recherche table th{
+		border: none;
+	}
+	.acceuil_1 .recherche{
+		margin-top: -55px;
+		margin-left: 120px;
+	}
+	#sec_2{
+		width: 100%;
+		height: 700px;
+		background-color: gainsboro;
+	}
+	.container_sec2{
+		display: flex;
+		flex-direction: column;
+	}
+	fieldset{
+		height: 200px;
+		border: 3px solid white;
+		position: relative;
+		left: 30px;
+		top: 15px;
+	}
+	.container_sec2 .photo_1, .container_sec2 .photo_2{
+		width: 100%;
+		height: 300px;
+	}
+	.nike1{
+		background-position: 100px bottom;
+	}
+	.nike{
+		background-position: 20px;
+	}
+	legend{
+		font-size: 20px;
+		font-weight: bolder;
+		font-family: sans-serif;
+		color: #fff;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
